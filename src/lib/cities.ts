@@ -3,7 +3,7 @@ import {writable} from "svelte/store";
 type Location = {name: string};
 
 const createCities = () => {
-	const {subscribe, update} = writable<Location[]>([{name: "Stockholm"}, {name: "Amsterdam"}, {name: "Rio De Janeiro"}]);
+	const {subscribe, update} = writable<Location[]>([{name: "Stockholm"}, {name: "Amsterdam"}, {name: "Rio"}]);
 
 	return {
 		subscribe,

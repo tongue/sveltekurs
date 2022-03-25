@@ -8,7 +8,7 @@ const getWeather = (name: string) => {
 	if (name === "Amsterdam") {
 		return 16;
 	}
-	if (name === "Rio de Janeiro") {
+	if (name === "Rio") {
 		return 26;
 	}
 	return 0;
